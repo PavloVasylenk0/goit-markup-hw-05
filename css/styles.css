@@ -589,23 +589,17 @@ button {
   gap: 24px;
 }
 
-
-
-
-
-
 .footer-subscribe-area {
   margin-left: 80px;
 }
 
 .footer-text-subscribe {
   color: #ffffff;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    margin-bottom: 16px;
-    font-weight: 500;
-  
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  font-weight: 500;
 }
 
 .footer-subscribe-form {
@@ -614,28 +608,28 @@ button {
 }
 
 .footer-input {
-    border: 1px solid #ffffff;
-    width: 264px;
-    height: 40px;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background-color: transparent;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    padding-left: 16px;
-    padding-right: 8px;
-    color: #ffffff;
+  border: 1px solid #ffffff;
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  padding-right: 8px;
+  color: #ffffff;
 }
 
 .footer-input::placeholder {
   font-weight: 400;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    padding: 8px 16px;
-    text-align: left;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-align: left;
 }
 
 .footer-subscribe-btn {
@@ -645,29 +639,24 @@ button {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    background-color: #4D5AE5;
-    padding: 8px 24px;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  padding: 8px 24px;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .footer-btn-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
 
 /* ================================== */
-
-
-
-
-
 
 /* ===============Modal/Backdrop=============== */
 
@@ -756,7 +745,7 @@ button {
   color: #2e2f42;
 }
 
-.modal-form {
+.modal-field {
   margin-bottom: 8px;
 }
 
@@ -803,6 +792,11 @@ button {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-comment {
+  margin-bottom: 16px;
 }
 
 .modal-text-area {
@@ -812,13 +806,14 @@ button {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
-  padding: 8px 8px;
+  padding: 8px 16px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   outline: transparent;
   resize: none;
   margin-bottom: 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-text-area:focus {
@@ -850,20 +845,23 @@ button {
 }
 
 .radio-btn:checked + .privacy-policy-radiobtn > .modal-checkbox {
-background-color: #404bbf;
-border: none;
-fill: #F4F4FD;
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .privacy-policy-link {
-color: #4D5AE5;
-line-height: 1.33;
+  color: #4d5ae5;
+  line-height: 1.33;
   text-decoration: underline;
   font-size: 12px;
   cursor: pointer;
 }
 
 .modal-btn-send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #4d5ae5;
   color: #fff;
   font-size: 16px;
